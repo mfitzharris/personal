@@ -1,0 +1,111 @@
+{
+  border-width: 1px;
+  border-color: red;
+  border-style: solid;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #FF3B05;
+  background-color: #FF7751;
+  width:80%;
+  margin: 10px auto;
+}
+header {
+  width:100%;
+  margin:auto;
+}
+#navigation {
+  display: inline-block;
+  width: 20%;
+}
+#links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.nav-link a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #FFBB99;
+}
+.nav-link a:hover{
+  background-color: #FF3B05;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFBB99;
+  width: 75%;
+  margin:auto;
+  padding:10px;
+}
+#name {
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 5px;
+  color: #A31500;
+}
+#page-name {
+  color: #FF7751;
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #A31500;
+}
+h1 {
+  margin: 0;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+
+/*resume*/
+.resume-section {
+  background-color: #FFE0D1;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.resume-section:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.resume-header {
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-color: #FF3B05;
+  border-bottom-width: 2px;
+  letter-spacing: 5px;
+}
+.education h3, .job h3, .skills h3 {
+  margin: 0;
+}
+.job h4 {
+  margin: 0px 0px 5px 0px;
+}
+.education ul, .job ul {
+  margin: 0px 0px 10px 0px;
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+.skills ul {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 0;
+}
