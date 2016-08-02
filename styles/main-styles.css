@@ -9,6 +9,7 @@ body {
   color: #FF3B05;
   background-color: #FF7751;
   width:80%;
+  max-width: 680px;
   margin: 10px auto;
 }
 header {
