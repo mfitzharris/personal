@@ -95,20 +95,6 @@ h1 {
   list-style-type: square;
   padding-left: 20px;
 }
-
-/*.skills {
-}
-.skills ul {
-  list-style-type: square;
-  list-style-position: inside;
-  margin: 0;
-  padding-left: 0;
-}
-.skills ul li {
-  display: inline;
-  margin: 0 5px 0px 0px;
-}
-*/
 ul.skills {
   padding-left: 20px;
   margin: 0
