@@ -9,6 +9,7 @@ body {
   color: #FF3B05;
   background-color: #FF7751;
   width:80%;
+  max-width: 680px;
   margin: 10px auto;
 }
 header {
@@ -35,7 +36,6 @@ header {
 }
 .nav-link a:hover{
   background-color: #FF3B05;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 main {
@@ -73,11 +73,9 @@ h1 {
 /*resume*/
 .resume-section {
   background-color: #FFE0D1;
+  background-
   padding: 3px;
   margin-bottom: 10px;
-}
-.resume-section:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .resume-header {
   margin: 0;
@@ -97,15 +95,11 @@ h1 {
   list-style-type: square;
   padding-left: 20px;
 }
-
-.skills {
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 25%;
+ul.skills {
+  padding-left: 20px;
+  margin: 0
 }
-.skills ul {
-  list-style-type: square;
-  list-style-position: inside;
-  margin: 0;
-  padding-left: 0;
+ul.skills li {
+  display: inline-block;
+  padding: 0 10px 2px 0px;
 }
