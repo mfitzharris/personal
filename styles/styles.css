@@ -48,3 +48,23 @@ main {
   border-radius: 10px;
   padding: .5em;
 }
+
+/*about me page*/
+.col1 {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.col2 {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.col1 img {
+  max-width: 350px;
+  width: 90%;
+}
+.col2 ul {
+  list-style-type: square;
+  padding-left: 0;
+}
