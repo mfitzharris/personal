@@ -38,6 +38,8 @@ header {
 #name a {
   text-decoration: none;
 }
+
+
 a {
   color: inherit;
 }
@@ -47,6 +49,10 @@ main {
   border: 1px solid black;
   border-radius: 10px;
   padding: .5em;
+}
+#page-name {
+  letter-spacing: .2em;
+  text-align: center;
 }
 
 /*about me page*/
@@ -63,8 +69,41 @@ main {
 .col1 img {
   max-width: 350px;
   width: 90%;
+  margin: 0;
+
 }
 .col2 ul {
   list-style-type: square;
   padding-left: 0;
+}
+/*resume */
+.resume-section {
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.resume-header {
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  letter-spacing: 5px;
+}
+.education h3, .job h3, .skills h3 {
+  margin: 0;
+}
+.job h4 {
+  margin: 0px 0px 5px 0px;
+}
+.education ul, .job ul {
+  margin: 0px 0px 10px 0px;
+  list-style-type: square;
+  padding-left: 20px;
+}
+ul.skills {
+  padding-left: 20px;
+  margin: 0
+}
+ul.skills li {
+  display: inline-block;
+  padding: 0 10px 2px 0px;
 }
