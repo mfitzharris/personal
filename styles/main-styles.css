@@ -16,7 +16,8 @@ header {
   width:100%;
   margin:auto;
 }
-#navigation {
+/*#navigation {
+  position: fixed;
   display: inline-block;
   width: 20%;
 }
@@ -37,14 +38,20 @@ header {
 .nav-link a:hover{
   background-color: #FF3B05;
 }
-
+*/
+nav {
+  background-color: white;
+  width: 100%;
+  padding
+}
+.nav-link {
+  display: inline;
+}
 main {
-  display: inline-block;
-  vertical-align: top;
   background-color: #FFBB99;
-  width: 75%;
   margin:auto;
   padding:10px;
+  width: 100%
 }
 #name {
   text-transform: uppercase;
