@@ -1,5 +1,5 @@
 body {
-  width: 90%;
+  width: 98%;
   margin: 10px auto;
   padding: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -21,10 +21,14 @@ header {
 #nav li{
   display:inline;
   text-transform: uppercase;
+  
 }
 #nav a{
   display:inline-block;
   padding:10px;
+}
+#nav a:hover{
+  
 }
 #name {
   font-weight: 100;
@@ -34,6 +38,7 @@ header {
   word-spacing: .25em;
   font-size: 2.5em;
   margin: 0;
+  text-shadow: 1px 1px #dcdcdc;
 }
 #name a {
   text-decoration: none;
@@ -42,17 +47,22 @@ header {
 
 a {
   color: inherit;
+  text-shadow: 1px 1px #dcdcdc;
+}
+a:hover {
+  text-shadow: 1px 1px black;
 }
 main {
-  width: 70%;
+  width: 80%;
   margin: 1em auto 0 auto;
-  border: 1px solid black;
+  border: 1px solid #a9a9a9;
   border-radius: 10px;
   padding: .5em;
 }
 #page-name {
   letter-spacing: .2em;
   text-align: center;
+  text-shadow: 1px 1px #dcdcdc;
 }
 
 /*about me page*/
@@ -67,16 +77,18 @@ main {
   vertical-align: top;
 }
 .col1 img {
-  max-width: 350px;
+  max-width: 300px;
   width: 90%;
   margin: 0;
-  border-radius: 10px;
+  border-radius: 50%;
   border-style: double;
+  box-shadow: 5px 5px 5px #dcdcdc;
 
 }
 .col2 ul {
-  list-style-type: square;
-  padding-left: 0;
+  list-style: square inside;
+  padding: 0;
+  margin-top: 0;
 }
 /*resume */
 .resume-section {
@@ -98,7 +110,7 @@ main {
 }
 .education ul, .job ul {
   margin: 0px 0px 10px 0px;
-  list-style-type: square;
+  list-style: square inside;
   padding-left: 20px;
 }
 ul.skills {
@@ -107,5 +119,31 @@ ul.skills {
 }
 ul.skills li {
   display: inline-block;
-  padding: 0 10px 2px 0px;
+  margin: .25em 1em .1em 0;
+  padding:2px;
+  background: #dcdcdc;
+  border-radius: 5px;
 }
+
+/*responsive*/
+@media screen and (max-width: 550px) {
+  main {
+    width: 90%;
+  }
+  .col1 {
+    width:100%;
+  }
+  .col1 img {
+    display: block;
+    width: 40%;
+    margin: auto;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col2 ul {
+    text-align: center;
+    margin: 1em;
+  }
+}
+
