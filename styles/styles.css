@@ -168,8 +168,13 @@ ul.skills li {
   }
   header {
     font-size: 2em;
+    padding-top: 1em;
   }
   #name span {
     display: none;
   }
+  ul.skills li {
+    font-size: 1.25em;
+  }
+
 }
