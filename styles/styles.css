@@ -146,4 +146,23 @@ ul.skills li {
     margin: 1em;
   }
 }
-
+@media only screen and (max-device-width: 450px) {
+  main {
+    width: 98%;
+  }
+  .col1 {
+    width:100%;
+  }
+  .col1 img {
+    display: block;
+    width: 40%;
+    margin: auto;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col2 ul {
+    text-align: center;
+    margin: 1em;
+  }
+}
