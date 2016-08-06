@@ -21,10 +21,14 @@ header {
 #nav li{
   display:inline;
   text-transform: uppercase;
+  
 }
 #nav a{
   display:inline-block;
   padding:10px;
+}
+#nav a:hover{
+  
 }
 #name {
   font-weight: 100;
@@ -34,6 +38,7 @@ header {
   word-spacing: .25em;
   font-size: 2.5em;
   margin: 0;
+  text-shadow: 1px 1px #dcdcdc;
 }
 #name a {
   text-decoration: none;
@@ -42,17 +47,22 @@ header {
 
 a {
   color: inherit;
+  text-shadow: 1px 1px #dcdcdc;
+}
+a:hover {
+  text-shadow: 1px 1px black;
 }
 main {
   width: 80%;
   margin: 1em auto 0 auto;
-  border: 1px solid black;
+  border: 1px solid #a9a9a9;
   border-radius: 10px;
   padding: .5em;
 }
 #page-name {
   letter-spacing: .2em;
   text-align: center;
+  text-shadow: 1px 1px #dcdcdc;
 }
 
 /*about me page*/
@@ -72,6 +82,7 @@ main {
   margin: 0;
   border-radius: 50%;
   border-style: double;
+  box-shadow: 5px 5px 5px #dcdcdc;
 
 }
 .col2 ul {
